@@ -1,0 +1,98 @@
+title {
+    font-size: 0px;
+}
+
+* {
+    font-family: "Avenir Next",
+    sans-serif; 
+    color: #8C8C8C;
+    font-weight: normal;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    background-color: #D8D8D8; 
+    border-radius: 5px; 
+    height: 50px;
+    width: 130px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+@media screen and (min-width: 680px) {
+button {
+    background-color: #D8D8D8; 
+    border-radius: 5px; 
+    height: 50px;
+    width: 130px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 90px;
+    margin-right: 90px;
+    }
+}
+
+@media screen and (min-width: 680px) {
+    h1{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    }
+}
+
+h2 {
+background-color: #D8D8D8; 
+height: 200px;  
+width: 200px; 
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+@media screen and (min-width: 680px) {
+    p {
+        font-size: 20px;
+        margin-bottom: 100px;
+        margin-top: 80px;
+    } 
+}
+
+footer {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 680px) {
+    footer {
+    margin-top: 80px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    }
+}
+    
